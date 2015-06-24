@@ -1,4 +1,6 @@
 class phpmssql {
+  include php
+
   $required = $::operatingsystem ? {
     /(?i-mx:centos|fedora|redhat|scientific)/ => [ 'php-mssql' ],
   }
